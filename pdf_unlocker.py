@@ -1,7 +1,6 @@
 import streamlit as st
 from pypdf import PdfReader, PdfWriter
 import io
-from pathlib import Path
 
 st.set_page_config(
     page_title="PDF解锁工具 - 新耐视",
@@ -54,4 +53,4 @@ if uploaded_file:
         st.info("**使用说明**\n\n1. 上传 PDF\n2. 点击解锁\n3. 下载新文件")
 
 st.markdown("---")
-st.caption( 基于 pypdf | 安全本地处理")
+st.caption("| 基于 pypdf | 安全本地处理")
